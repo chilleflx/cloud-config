@@ -57,21 +57,7 @@ Example Microservice Configuration
 Commandes Microservice
 The microservice-commandes.properties file contains specific configurations for the "Commandes" microservice. Here is an example:
 
-properties
-Copy
-# Example properties for the Commandes microservice
-commandes.service.url=http://localhost:8081
-commandes.service.timeout=5000
-Produits Microservice
-The microservice-produits.properties file contains specific configurations for the "Produits" microservice. Here is an example:
 
-properties
-Copy
-# Example properties for the Produits microservice
-produits.service.url=http://localhost:8082
-produits.service.timeout=3000
-Logging Configuration
-The logging configuration is set to INFO level for the root logger, the config server package, and the embedded Tomcat server. You can adjust these levels as needed for debugging or production environments.
 
 Contributing
 If you would like to contribute to this repository, please fork the repository and create a pull request with your changes.
